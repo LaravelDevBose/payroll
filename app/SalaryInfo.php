@@ -23,7 +23,7 @@ class SalaryInfo extends Model
 
 	public function paymentHistory()
 	{
-		return $this->hasMany(paymentHistory::class, 'salary_id', 'id');
+		return $this->hasMany(PaymentHistory::class, 'salary_id', 'id');
 		
 	}
 
