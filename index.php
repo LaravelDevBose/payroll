@@ -1,11 +1,14 @@
 <?php
-
+ini_set('max_execution_time', 3000);
+//phpinfo();
 /**
  * Laravel - A PHP Framework For Web Artisans
  *
  * @package  Laravel
  * @author   Taylor Otwell <taylor@laravel.com>
+ * @developed By Arup Kumer Bose [Knight Coder]
  */
+
 
 /*
 |--------------------------------------------------------------------------
